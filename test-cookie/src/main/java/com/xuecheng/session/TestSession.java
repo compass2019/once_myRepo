@@ -20,6 +20,6 @@ public class TestSession {
         Cookie cookie = new Cookie("JSESSIONID",session.getId());
         cookie.setMaxAge(600);
         resp.addCookie(cookie);
-        System.out.println("我添加了一段内容");
+        System.out.println("我删除并修改了一段代码");
     }
 }
