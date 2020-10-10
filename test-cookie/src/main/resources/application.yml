@@ -1,0 +1,5 @@
+server:
+  port: 44008
+spring:
+  application:
+    name: test-cookie
