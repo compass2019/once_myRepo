@@ -35,6 +35,7 @@
         <option value="$PROJECT_DIR$/testStringTest/pom.xml" />
         <option value="$PROJECT_DIR$/test-mysql/pom.xml" />
         <option value="$PROJECT_DIR$/test-cookie/pom.xml" />
+        <option value="$PROJECT_DIR$/test-transactional/pom.xml" />
       </list>
     </option>
   </component>

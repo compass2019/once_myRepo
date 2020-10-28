@@ -23,6 +23,7 @@
         <module name="test-static-Demo" />
         <module name="test-String-Test" />
         <module name="test-thread_demo" />
+        <module name="test-transactional" />
         <module name="test-web" />
         <module name="xc-framework-common" />
         <module name="xc-framework-model" />
@@ -40,6 +41,8 @@
     <bytecodeTargetLevel>
       <module name="govenEureka" target="1.8" />
       <module name="SpringcloudTest" target="1.5" />
+      <module name="test-String-Test" target="1.5" />
+      <module name="test-thread_demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -49,6 +52,7 @@
       <module name="test-mybatis-cache" options="-parameters" />
       <module name="test-rabbitmq-consumer" options="-parameters" />
       <module name="test-rabbitmq-producer" options="-parameters" />
+      <module name="test-transactional" options="-parameters" />
       <module name="xc-framework-common" options="-parameters" />
       <module name="xc-framework-model" options="-parameters" />
       <module name="xc-framework-utils" options="-parameters" />
