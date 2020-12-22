@@ -31,7 +31,7 @@ public class Test001 {
 //
 //        tab1Test.update1(tab1);
 //        tab1Test.update2(tab2);
-        List<Tab1> tab1s = tab1Test.selectByAll();
+        List<Tab1> tab1s = tab1Test.selectByAll(1);
         System.out.println(tab1s);
     }
 }

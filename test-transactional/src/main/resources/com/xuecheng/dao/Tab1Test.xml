@@ -2,8 +2,12 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.xuecheng.dao.Tab1Test">
 
-    <select id="selectByAll" resultType="com.xuecheng.domain.Tab1" >
-    SELECT * FROM tab1
+    <select id="selectByAll" resultType="com.xuecheng.domain.Tab1">
+        SELECT * FROM tab1
+        where
+        <if test="id != null and ">
+          id = #{id}
+        </if>
     </select>
 
     <update id="update1" parameterType="com.xuecheng.domain.Tab1">
