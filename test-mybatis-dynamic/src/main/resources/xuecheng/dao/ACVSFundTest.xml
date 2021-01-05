@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="xuecheng.dao.ACVSFundTest">
+
+    <resultMap id="res" extends="xuecheng.dao.BaseEntityTest.baseCol" type="xuecheng.domain.ACVSFund">
+        <!--<id column="id" property="id"/>-->
+        <result column="fund_code" property="fundCode"/>
+        <result column="fund_name" property="fundName"/>
+        <result column="gmt_Create" property="gmtCreate"/>
+
+    </resultMap>
+
+
+
+    <select id="findById" resultMap="res" parameterType="java.lang.Integer">
+
+
+    SELECT
+            af.fund_code ,
+            af.fund_name ,
+            af.gmt_create ,
+            bi.username,
+            bi.age
+    FROM
+          base_infor bi, acvs_fund af
+    WHERE
+        af.id =#{id}
+    and
+        bi.id = 1
+    </select>
+
+
+
+
+
+
+
+
+
+    <select id="findByIdACVSFund" resultType="xuecheng.domain.ACVSFund" parameterType="java.lang.Integer">
+
+    SELECT
+        *
+    FROM
+        acvs_fund
+    WHERE
+        id =#{id}
+
+    </select>
+
+
+
+
+</mapper>

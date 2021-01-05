@@ -7,15 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="LombokDemo01" />
+        <module name="poi_parser_demo_01" />
         <module name="test-Collection" />
         <module name="test-cookie" />
+        <module name="test-Datetransform" />
         <module name="test-DuoTai" />
         <module name="test-freemark" />
+        <module name="test-hadoop-lock" />
         <module name="test-io" />
         <module name="test-IocAop" />
         <module name="test-jvm" />
         <module name="test-map-thread" />
         <module name="test-mybatis-cache" />
+        <module name="test-mybatis-dynamic" />
         <module name="test-mysql" />
         <module name="test-proxystatic" />
         <module name="test-rabbitmq-consumer" />
@@ -41,15 +45,17 @@
     <bytecodeTargetLevel>
       <module name="govenEureka" target="1.8" />
       <module name="SpringcloudTest" target="1.5" />
-      <module name="test-String-Test" target="1.5" />
-      <module name="test-thread_demo" target="1.8" />
+      <module name="test-Date_transform" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="govenEureka" options="-parameters" />
+      <module name="test-Datetransform" options="-parameters" />
       <module name="test-freemark" options="-parameters" />
+      <module name="test-hadoop-lock" options="-parameters" />
       <module name="test-mybatis-cache" options="-parameters" />
+      <module name="test-mybatis-dynamic" options="-parameters" />
       <module name="test-rabbitmq-consumer" options="-parameters" />
       <module name="test-rabbitmq-producer" options="-parameters" />
       <module name="test-transactional" options="-parameters" />

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="xuecheng.dao.CityMapper">
+    <select id="findById" parameterType="long" resultType="xuecheng.domain.City">
+        SELECT * FROM city WHERE pid=#{id}
+    </select>
+</mapper>

@@ -6,9 +6,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-proxystatic/src/test/java/xuecheng/jdkdemo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-proxystatic/src/test/java/xuecheng/jdkdemo/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-static-Demo/src/test/java/com/xuecheng/TestStatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-static-Demo/src/test/java/com/xuecheng/TestStatic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-thread_demo/src/main/java/cn/itcast/visible/Test001.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-thread_demo/src/main/java/cn/itcast/visible/Test001.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,6 +42,14 @@
     <ignored path="$PROJECT_DIR$/test-mysql/target/" />
     <ignored path="$PROJECT_DIR$/test-cookie/target/" />
     <ignored path="$PROJECT_DIR$/test-transactional/target/" />
+    <ignored path="$PROJECT_DIR$/poi_parser_demo_01/target/" />
+    <ignored path="$PROJECT_DIR$/test-mybatis-dynamic/target/" />
+    <ignored path="$PROJECT_DIR$/test-javaUtils/target/" />
+    <ignored path="$PROJECT_DIR$/test-lock/target/" />
+    <ignored path="$PROJECT_DIR$/test-hadoop-lock/target/" />
+    <ignored path="$PROJECT_DIR$/test-javaUtils/test-Date_ transform/target/" />
+    <ignored path="$PROJECT_DIR$/test-javaUtils/test-date-transform/target/" />
+    <ignored path="$PROJECT_DIR$/test-datetransform/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +60,14 @@
     <SUITE FILE_PATH="coverage/SpringcloudTest$TestSearch_testTermQuer.ic" NAME="TestSearch.testTermQuer Coverage Results" MODIFIED="1594615106634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.xuecheng.search.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/SpringcloudTest$Test001_test.ic" NAME="Test001.test Coverage Results" MODIFIED="1603706520588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.xuecheng.*</FILTER>
+    <SUITE FILE_PATH="coverage/SpringcloudTest$Test001_test.ic" NAME="Test001.test Coverage Results" MODIFIED="1604844492092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>xuecheng.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SpringcloudTest$Test001_testById.ic" NAME="Test001.testById Coverage Results" MODIFIED="1605796529776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>xuecheng.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SpringcloudTest$Test001_test__1_.ic" NAME="Test001.test (1) Coverage Results" MODIFIED="1605536102488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>xuecheng.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/SpringcloudTest$CookieTestApp.ic" NAME="CookieTestApp Coverage Results" MODIFIED="1602231925388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.xuecheng.*</FILTER>
@@ -70,6 +81,9 @@
     <SUITE FILE_PATH="coverage/SpringcloudTest$TestMyabtis_testYiJiCache.ic" NAME="TestMyabtis.testYiJiCache Coverage Results" MODIFIED="1598936737194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.xuecheng.dao.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/SpringcloudTest$Test001_testByExtend.ic" NAME="Test001.testByExtend Coverage Results" MODIFIED="1605855869947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>xuecheng.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/SpringcloudTest$TestMyabtis_testYiJiCache2.ic" NAME="TestMyabtis.testYiJiCache2 Coverage Results" MODIFIED="1600079010128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.xuecheng.dao.*</FILTER>
     </SUITE>
@@ -80,96 +94,63 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-transactional/pom.xml">
+        <entry file="file://$PROJECT_DIR$/test-Datetransform/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="528">
+              <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-transactional/src/test/java/com/xuecheng/dao/Test001.java">
+        <entry file="file://$PROJECT_DIR$/test-Datetransform/src/main/java/com/yixue/ManageCmsApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+            <state relative-caret-position="95">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#970#971#0" expanded="true" />
+                <element signature="e#1040#1041#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-transactional/src/main/resources/com/xuecheng/dao/Tab1Test.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-transactional/src/main/java/com/xuecheng/domain/Tab1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-transactional/src/main/java/com/xuecheng/dao/Tab1Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-transactional/src/main/java/com/xuecheng/TestSql.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xc-service-manage-course/src/main/resources/com/xuecheng/manage_course/dao/TeachplanMapper.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xc-service-manage-course/src/main/resources/com/xuecheng/manage_course/dao/CourseMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test-transactional/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/test-Datetransform/src/test/java/com/yixue/DateTransform.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+            <state relative-caret-position="441">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xc-service-manage-course/src/test/java/com/xuecheng/manage_course/dao/TestDao.java">
+        <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/src/test/java/com/xuecheng/manage_cms/dao/CmsPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="123">
-              <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+              <caret line="20" selection-start-line="20" selection-end-line="21" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xc-framework-parent/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" selection-start-line="5" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -180,8 +161,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
-        <option value="Interface" />
         <option value="HTTP Request" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -206,57 +187,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test-proxystatic/src/main/java/com/Test.java" />
-        <option value="$PROJECT_DIR$/test-IocAop/src/main/java/com/xuecheng/TestIocAop.java" />
-        <option value="$PROJECT_DIR$/test-IocAop/src/main/java/com/xuecheng/ioc/factory/Stuent.java" />
-        <option value="$PROJECT_DIR$/test-IocAop/src/main/java/com/xuecheng/ioc/factory/Test.java" />
-        <option value="$PROJECT_DIR$/test-IocAop/src/main/java/com/xuecheng/ioc/factory/TestFactory.java" />
-        <option value="$PROJECT_DIR$/test-IocAop/src/main/java/com/xuecheng/aop/service/TeacherTest.java" />
-        <option value="$PROJECT_DIR$/test-IocAop/src/main/java/com/xuecheng/aop/service/Teacher.java" />
-        <option value="$PROJECT_DIR$/test-IocAop/src/main/java/com/xuecheng/aop/service/ArgsTest.java" />
-        <option value="$PROJECT_DIR$/test-IocAop/src/main/java/com/xuecheng/aop/annontation/ZiDin.java" />
-        <option value="$PROJECT_DIR$/test-IocAop/src/main/java/com/xuecheng/aop/service/AnnonTest.java" />
-        <option value="$PROJECT_DIR$/test-IocAop/src/main/java/com/xuecheng/aop/service/declareparents/TestInter.java" />
-        <option value="$PROJECT_DIR$/test-IocAop/src/main/java/com/xuecheng/aop/service/declareparents/TestI.java" />
-        <option value="$PROJECT_DIR$/test-IocAop/src/main/java/com/xuecheng/aop/Demo.java" />
-        <option value="$PROJECT_DIR$/test-IocAop/src/main/java/com/xuecheng/aop/service/TestService.java" />
-        <option value="$PROJECT_DIR$/test-IocAop/src/main/java/com/xuecheng/aop/config/AopConfig.java" />
-        <option value="$PROJECT_DIR$/test-IocAop/src/main/java/com/xuecheng/aop/advice/AspectTest.java" />
-        <option value="$PROJECT_DIR$/test-String-Test/src/main/java/com/xuecheng/TestEqual.java" />
-        <option value="$PROJECT_DIR$/test-cookie/src/main/java/com/xuecheng/cookie/CookieTest.http" />
-        <option value="$PROJECT_DIR$/test-cookie/src/main/java/com/xuecheng/cookie/TestCookie01.java" />
-        <option value="$PROJECT_DIR$/test-cookie/src/main/java/com/xuecheng/cookie/OneFileter.java" />
-        <option value="$PROJECT_DIR$/test-cookie/src/main/java/com/xuecheng/cookie/OneFilter.java" />
-        <option value="$PROJECT_DIR$/test-cookie/src/main/java/com/xuecheng/CookieTestApp.java" />
-        <option value="$PROJECT_DIR$/test-cookie/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/test-cookie/pom.xml" />
-        <option value="$PROJECT_DIR$/test-cookie/src/main/java/com/xuecheng/cookie/TestCookie.java" />
-        <option value="$PROJECT_DIR$/test-cookie/src/main/java/com/xuecheng/session/TestSession2.java" />
-        <option value="$PROJECT_DIR$/test-cookie/src/main/java/com/xuecheng/session/TestSession.java" />
-        <option value="$PROJECT_DIR$/test-DuoTai/src/main/java/com/xuecheng/abst/Student.java" />
-        <option value="$PROJECT_DIR$/test-DuoTai/src/main/java/com/xuecheng/abst/People.java" />
-        <option value="$PROJECT_DIR$/test-DuoTai/src/main/java/com/xuecheng/abst/Test.java" />
-        <option value="$PROJECT_DIR$/test-DuoTai/src/main/java/com/xuecheng/testBao/Test.java" />
-        <option value="$PROJECT_DIR$/test-DuoTai/src/main/java/com/xuecheng/testBao/Teacher.java" />
-        <option value="$PROJECT_DIR$/test-static-Demo/src/main/java/com/xuecheng/ManageCmsApplication.java" />
-        <option value="$PROJECT_DIR$/test-static-Demo/src/main/java/com/xuecheng/initVariable/Test01.java" />
-        <option value="$PROJECT_DIR$/test-static-Demo/src/test/java/com/xuecheng/TestStatic.java" />
-        <option value="$PROJECT_DIR$/test-static-Demo/src/main/java/com/xuecheng/test01/Test001.java" />
-        <option value="$PROJECT_DIR$/test-static-Demo/src/main/java/com/xuecheng/test01/People.java" />
-        <option value="$PROJECT_DIR$/test-proxystatic/src/test/java/xuecheng/jdkdemo/Student.java" />
-        <option value="$PROJECT_DIR$/test-io/src/test/java/com/xuecheng/object_io/TestHash.java" />
-        <option value="$PROJECT_DIR$/test-thread_demo/src/main/java/cn/itcast/visible/Test001.java" />
-        <option value="$PROJECT_DIR$/test-transactional/src/main/resources/com.xuecheng.dao/Tab1.xml" />
-        <option value="$PROJECT_DIR$/test-transactional/src/test/java/com/yixue/Test001.java" />
-        <option value="$PROJECT_DIR$/test-transactional/src/test/java/com/xuecheng/Test001.java" />
-        <option value="$PROJECT_DIR$/test-transactional/src/main/resources/com.xuecheng.dao/Tab1Test.xml" />
-        <option value="$PROJECT_DIR$/test-transactional/pom.xml" />
-        <option value="$PROJECT_DIR$/test-transactional/src/main/java/com/xuecheng/domain/Tab1.java" />
-        <option value="$PROJECT_DIR$/test-transactional/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/test-transactional/src/main/java/com/xuecheng/TestSql.java" />
-        <option value="$PROJECT_DIR$/test-transactional/src/main/java/com/xuecheng/dao/Tab1Test.java" />
-        <option value="$PROJECT_DIR$/test-transactional/src/main/resources/com/xuecheng/dao/Tab1Test.xml" />
-        <option value="$PROJECT_DIR$/test-transactional/src/test/java/com/xuecheng/dao/Test001.java" />
+        <option value="$PROJECT_DIR$/test-mybatis-dynamic/src/main/java/xuecheng/dao/CityMapper.java" />
+        <option value="$PROJECT_DIR$/test-mybatis-dynamic/src/main/resources/xuecheng/dao/cityMapper.xml" />
+        <option value="$PROJECT_DIR$/test-mybatis-dynamic/src/main/resources/xuecheng/dao/Tab1Test.xml" />
+        <option value="$PROJECT_DIR$/test-mybatis-dynamic/src/main/resources/xuecheng/dao/riceMapper.xml" />
+        <option value="$PROJECT_DIR$/test-mybatis-dynamic/src/main/java/xuecheng/dao/RiceMapper.java" />
+        <option value="$PROJECT_DIR$/test-mybatis-dynamic/src/main/java/xuecheng/dao/NoodleMapper.java" />
+        <option value="$PROJECT_DIR$/test-mybatis-dynamic/src/main/resources/xuecheng/dao/noodleMapper.xml" />
+        <option value="$PROJECT_DIR$/test-mybatis-dynamic/src/main/java/xuecheng/domain/Province.java" />
+        <option value="$PROJECT_DIR$/test-mybatis-dynamic/src/main/java/xuecheng/domain/Food.java" />
+        <option value="$PROJECT_DIR$/test-mybatis-dynamic/src/main/java/xuecheng/domain/Noodle.java" />
+        <option value="$PROJECT_DIR$/test-mybatis-dynamic/src/main/java/xuecheng/domain/Rice.java" />
+        <option value="$PROJECT_DIR$/test-mybatis-dynamic/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/test-mybatis-dynamic/src/main/resources/xuecheng/dao/provinceMapper.xml" />
+        <option value="$PROJECT_DIR$/test-mybatis-dynamic/src/main/java/xuecheng/dao/ACVSFundTest.java" />
+        <option value="$PROJECT_DIR$/test-mybatis-dynamic/src/main/resources/xuecheng/dao/ACVSFundTest.xml" />
+        <option value="$PROJECT_DIR$/test-mybatis-dynamic/src/main/resources/xuecheng/dao/testTime.xml" />
+        <option value="$PROJECT_DIR$/test-mybatis-dynamic/src/main/java/xuecheng/dao/TestTime.java" />
+        <option value="$PROJECT_DIR$/test-mybatis-dynamic/src/main/java/xuecheng/dao/TestTimeMapper.java" />
+        <option value="$PROJECT_DIR$/test-mybatis-dynamic/src/main/resources/xuecheng/dao/testTimeMapper.xml" />
+        <option value="$PROJECT_DIR$/test-mybatis-dynamic/src/main/java/xuecheng/domain/TestTime.java" />
+        <option value="$PROJECT_DIR$/test-mybatis-dynamic/src/main/java/xuecheng/domain/Student.java" />
+        <option value="$PROJECT_DIR$/test-mybatis-dynamic/src/main/java/xuecheng/domain/ACVSFund.java" />
+        <option value="$PROJECT_DIR$/test-mybatis-dynamic/src/main/java/xuecheng/domain/TmpCourseViem.java" />
+        <option value="$PROJECT_DIR$/test-mybatis-dynamic/src/main/resources/xuecheng/dao/CourseViewMapper.xml" />
+        <option value="$PROJECT_DIR$/test-mybatis-dynamic/src/test/java/xuecheng/Test001.java" />
+        <option value="$PROJECT_DIR$/test-mybatis-dynamic/src/main/java/xuecheng/dao/CourseViewMapper.java" />
+        <option value="$PROJECT_DIR$/test-mybatis-dynamic/src/main/java/xuecheng/domain/TestSon.java" />
+        <option value="$PROJECT_DIR$/test-mybatis-dynamic/src/main/java/xuecheng/domain/TestPrivate.java" />
+        <option value="$PROJECT_DIR$/test-mybatis-dynamic/src/main/java/xuecheng/domain/Test.java" />
+        <option value="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/cms/CmsConfigControllerApi.java" />
+        <option value="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/config/Test.java" />
+        <option value="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/config/TestSon.java" />
+        <option value="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/config/TestFather.java" />
+        <option value="$PROJECT_DIR$/test-jvm/src/main/java/com/xuecheng/test/ProducerTest.java" />
+        <option value="$PROJECT_DIR$/test-lock/src/main/java/com/xuecheng/Lock1.java" />
+        <option value="$PROJECT_DIR$/test-lock/src/test/java/com/xuecheng/LockTest.java" />
+        <option value="$PROJECT_DIR$/test-lock/src/test/java/com/xuecheng/RedisLock1.java" />
+        <option value="$PROJECT_DIR$/test-lock/pom.xml" />
+        <option value="$PROJECT_DIR$/test-hadoop-lock/src/main/java/com/xuecheng/service/RedisService.java" />
+        <option value="$PROJECT_DIR$/test-hadoop-lock/src/main/java/com/xuecheng/util/RedisKeyUtil.java" />
+        <option value="$PROJECT_DIR$/test-hadoop-lock/src/main/java/com/xuecheng/domain/UserVo.java" />
+        <option value="$PROJECT_DIR$/test-hadoop-lock/src/test/java/com/xuecheng/RedisLock1.java" />
+        <option value="$PROJECT_DIR$/test-hadoop-lock/src/main/java/com/xuecheng/ManageCourseApplication.java" />
+        <option value="$PROJECT_DIR$/test-hadoop-lock/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/test-hadoop-lock/pom.xml" />
+        <option value="$PROJECT_DIR$/test-hadoop-lock/src/main/java/com/xuecheng/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/test-hadoop-lock/src/test/java/com/xuecheng/test/RedisConfigTest.java" />
+        <option value="$PROJECT_DIR$/test-datetransform/pom.xml" />
+        <option value="$PROJECT_DIR$/test-Datetransform/pom.xml" />
+        <option value="$PROJECT_DIR$/test-Datetransform/src/main/java/com/yixue/ManageCmsApplication.java" />
+        <option value="$PROJECT_DIR$/test-Datetransform/src/test/java/com/yixue/DateTransform.java" />
       </list>
     </option>
   </component>
@@ -296,107 +277,45 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="SpringcloudTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-mysql" type="462c0819:PsiDirectoryNode" />
+              <item name="test-Datetransform" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringcloudTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-mysql" type="462c0819:PsiDirectoryNode" />
+              <item name="test-Datetransform" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringcloudTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-mysql" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringcloudTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-mysql" type="462c0819:PsiDirectoryNode" />
+              <item name="test-Datetransform" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringcloudTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-mysql" type="462c0819:PsiDirectoryNode" />
+              <item name="test-Datetransform" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringcloudTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-rabbitmq-producer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringcloudTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-rabbitmq-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="test-Datetransform" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yixue" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringcloudTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-rabbitmq-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="test-Datetransform" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringcloudTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-rabbitmq-producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringcloudTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-rabbitmq-producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringcloudTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xc-framework-model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringcloudTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xc-framework-model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringcloudTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xc-framework-model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringcloudTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xc-framework-model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringcloudTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xc-framework-model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringcloudTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xc-framework-model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringcloudTest" type="b2602c69:ProjectViewProjectNode" />
@@ -422,7 +341,15 @@
               <item name="xc-service-manage-cms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringcloudTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xc-service-manage-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="manage_cms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringcloudTest" type="b2602c69:ProjectViewProjectNode" />
@@ -443,119 +370,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringcloudTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xc-service-manage-cms-client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringcloudTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xc-service-manage-cms-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringcloudTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xc-service-manage-cms-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringcloudTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xc-service-manage-cms-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringcloudTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xc-service-manage-course" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringcloudTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xc-service-manage-course" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringcloudTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xc-service-manage-course" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringcloudTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xc-service-manage-course" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringcloudTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xc-service-manage-course" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="manage_course" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringcloudTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xc-service-manage-course" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="manage_course" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringcloudTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xc-service-manage-course" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringcloudTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xc-service-manage-course" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringcloudTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xc-service-manage-course" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringcloudTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xc-service-manage-course" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringcloudTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xc-service-manage-course" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="manage_course" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringcloudTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xc-service-manage-course" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="manage_course" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -567,17 +387,17 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603902039148" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1608599919073" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/poi_parser_demo_01/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -586,26 +406,28 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\idea\Xpp\SpringcloudTest\test-transactional\src\main\resources\com\xuecheng\dao" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="xuecheng" />
       <recent name="com.xuecheng.dao" />
       <recent name="com.xuecheng" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.xuecheng" />
-      <recent name="com.xuecheng.cookie" />
-      <recent name="xuecheng.jdkdemo" />
-      <recent name="" />
-      <recent name="dao" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\idea\Xpp\SpringcloudTest\test-transactional\src\main\resources" />
-      <recent name="G:\idea\Xpp\SpringcloudTest\test-transactional\src\main\resources\com.xuecheng.dao" />
-      <recent name="G:\idea\Xpp\SpringcloudTest\test-cookie\src\main\resources" />
-      <recent name="G:\idea\Xpp\SpringcloudTest\test-mysql\src\main\resources" />
-      <recent name="G:\idea\Xpp\SpringcloudTest\test-mybatis-cache\src\main\resources\com\xuecheng\dao" />
+      <recent name="G:\idea\Xpp\SpringcloudTest\test-javaUtils" />
+      <recent name="G:\idea\Xpp\SpringcloudTest\test-lock\src\main\resources" />
+      <recent name="G:\idea\Xpp\SpringcloudTest\test-mybatis-dynamic\src\main\resources\xuecheng" />
+      <recent name="G:\idea\Xpp\SpringcloudTest\test-mybatis-dynamic\src\main\resources\xuecheng\dao" />
+      <recent name="G:\idea\Xpp\SpringcloudTest\test-mybatis-dynamic\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yixue" />
+      <recent name="com.xuecheng" />
+      <recent name="xuecheng.dao" />
+      <recent name="dao" />
+      <recent name="com.xuecheng.cookie" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\idea\Xpp\SpringcloudTest\test-mybatis-dynamic\src\main\resources\xuecheng\dao" />
+      <recent name="G:\idea\Xpp\SpringcloudTest\test-transactional\src\main\resources\com\xuecheng\dao" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -626,70 +448,82 @@
     </option>
     <option name="contentProportion" value="0.2963576" />
   </component>
-  <component name="RunManager" selected="JUnit.Test001.test">
-    <configuration name="Lockemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.lock.Lockemo" />
-      <module name="test-thread_demo" />
+  <component name="RunManager" selected="JUnit.DateTransform.testDateTransf">
+    <configuration name="DateTransform.testDateTransf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-Datetransform" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.lock.*" />
+          <option name="PATTERN" value="com.yixue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.yixue" />
+      <option name="MAIN_CLASS_NAME" value="com.yixue.DateTransform" />
+      <option name="METHOD_NAME" value="testDateTransf" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test001 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.visible.Test001" />
-      <module name="test-thread_demo" />
+    <configuration name="LockTest.deduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-hadoop-lock" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.visible.*" />
+          <option name="PATTERN" value="com.xuecheng.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.xuecheng" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.LockTest" />
+      <option name="METHOD_NAME" value="deduct" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xuecheng.test01.Test001" />
-      <module name="test-static-Demo" />
+    <configuration name="RedisConfigTest.HashOperations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-hadoop-lock" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xuecheng.test01.*" />
+          <option name="PATTERN" value="com.xuecheng.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.xuecheng.test" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.test.RedisConfigTest" />
+      <option name="METHOD_NAME" value="HashOperations" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xuecheng.object_io.TestHash" />
-      <module name="test-io" />
+    <configuration name="RedisConfigTest.redisson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-hadoop-lock" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xuecheng.object_io.*" />
+          <option name="PATTERN" value="com.xuecheng.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.xuecheng.test" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.test.RedisConfigTest" />
+      <option name="METHOD_NAME" value="redisson" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test001.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test-transactional" />
+    <configuration name="RedisConfigTest.testObj" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-hadoop-lock" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xuecheng.dao.*" />
+          <option name="PATTERN" value="com.xuecheng.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.xuecheng.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.xuecheng.dao.Test001" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="com.xuecheng.test" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.test.RedisConfigTest" />
+      <option name="METHOD_NAME" value="testObj" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -779,11 +613,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test001" />
-      <item itemvalue="Application.TestHash" />
-      <item itemvalue="Application.Test001 (1)" />
-      <item itemvalue="Application.Lockemo" />
-      <item itemvalue="JUnit.Test001.test" />
+      <item itemvalue="JUnit.LockTest.deduct" />
+      <item itemvalue="JUnit.RedisConfigTest.testObj" />
+      <item itemvalue="JUnit.RedisConfigTest.HashOperations" />
+      <item itemvalue="JUnit.RedisConfigTest.redisson" />
+      <item itemvalue="JUnit.DateTransform.testDateTransf" />
       <item itemvalue="Spring Boot.ManageCmsApplication" />
       <item itemvalue="Spring Boot.cmspage2" />
       <item itemvalue="Spring Boot.cmspage1" />
@@ -798,11 +632,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Test001.test" />
-        <item itemvalue="Application.Lockemo" />
-        <item itemvalue="Application.Test001 (1)" />
-        <item itemvalue="Application.TestHash" />
-        <item itemvalue="Application.Test001" />
+        <item itemvalue="JUnit.DateTransform.testDateTransf" />
+        <item itemvalue="JUnit.RedisConfigTest.redisson" />
+        <item itemvalue="JUnit.RedisConfigTest.HashOperations" />
+        <item itemvalue="JUnit.RedisConfigTest.testObj" />
+        <item itemvalue="JUnit.LockTest.deduct" />
       </list>
     </recent_temporary>
   </component>
@@ -884,6 +718,29 @@
       <workItem from="1603631352208" duration="7486000" />
       <workItem from="1603639054375" duration="5955000" />
       <workItem from="1603783845659" duration="11059000" />
+      <workItem from="1604024461639" duration="646000" />
+      <workItem from="1604235911070" duration="2462000" />
+      <workItem from="1604280137006" duration="631000" />
+      <workItem from="1604585786000" duration="3160000" />
+      <workItem from="1604735554671" duration="993000" />
+      <workItem from="1604817300854" duration="10621000" />
+      <workItem from="1604899940603" duration="599000" />
+      <workItem from="1604972010851" duration="950000" />
+      <workItem from="1605091755570" duration="1482000" />
+      <workItem from="1605148809368" duration="5270000" />
+      <workItem from="1605443459967" duration="599000" />
+      <workItem from="1605523655843" duration="15072000" />
+      <workItem from="1605763340341" duration="5482000" />
+      <workItem from="1605848335155" duration="21065000" />
+      <workItem from="1605929044642" duration="16485000" />
+      <workItem from="1606200204524" duration="2122000" />
+      <workItem from="1606575297337" duration="319000" />
+      <workItem from="1606744265549" duration="2661000" />
+      <workItem from="1606792971421" duration="5135000" />
+      <workItem from="1606899630960" duration="21782000" />
+      <workItem from="1607139664482" duration="4931000" />
+      <workItem from="1607243209605" duration="599000" />
+      <workItem from="1608597322823" duration="2950000" />
     </task>
     <task id="LOCAL-00001" summary="真正第一次提交">
       <created>1602007763444</created>
@@ -945,39 +802,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test001_test - 2020.10.27 at 16h 38m 28s.xml">
-      <configuration name="Test001.test" configurationId="JUnit" />
+    <history-entry file="RedisConfigTest_redisson - 2020.12.04 at 23h 25m 35s.xml">
+      <configuration name="RedisConfigTest.redisson" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test001_test - 2020.10.27 at 16h 39m 01s.xml">
-      <configuration name="Test001.test" configurationId="JUnit" />
+    <history-entry file="RedisConfigTest_redisson - 2020.12.04 at 23h 29m 51s.xml">
+      <configuration name="RedisConfigTest.redisson" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test001_test - 2020.10.27 at 19h 08m 01s.xml">
-      <configuration name="Test001.test" configurationId="JUnit" />
+    <history-entry file="RedisConfigTest_redisson - 2020.12.04 at 23h 44m 46s.xml">
+      <configuration name="RedisConfigTest.redisson" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test001_test - 2020.10.27 at 19h 12m 43s.xml">
-      <configuration name="Test001.test" configurationId="JUnit" />
+    <history-entry file="DateTransform_testDateTransf - 2020.12.22 at 09h 05m 40s.xml">
+      <configuration name="DateTransform.testDateTransf" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test001_test - 2020.10.27 at 19h 14m 32s.xml">
-      <configuration name="Test001.test" configurationId="JUnit" />
+    <history-entry file="DateTransform_testDateTransf - 2020.12.22 at 09h 09m 25s.xml">
+      <configuration name="DateTransform.testDateTransf" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test001_test - 2020.10.27 at 19h 21m 19s.xml">
-      <configuration name="Test001.test" configurationId="JUnit" />
+    <history-entry file="DateTransform_testDateTransf - 2020.12.22 at 09h 11m 39s.xml">
+      <configuration name="DateTransform.testDateTransf" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test001_test - 2020.10.27 at 19h 21m 59s.xml">
-      <configuration name="Test001.test" configurationId="JUnit" />
+    <history-entry file="DateTransform_testDateTransf - 2020.12.22 at 09h 13m 21s.xml">
+      <configuration name="DateTransform.testDateTransf" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test001_test - 2020.10.27 at 19h 23m 41s.xml">
-      <configuration name="Test001.test" configurationId="JUnit" />
+    <history-entry file="DateTransform_testDateTransf - 2020.12.22 at 09h 13m 38s.xml">
+      <configuration name="DateTransform.testDateTransf" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test001_test - 2020.10.28 at 17h 40m 33s.xml">
-      <configuration name="Test001.test" configurationId="JUnit" />
+    <history-entry file="DateTransform_testDateTransf - 2020.12.22 at 09h 14m 01s.xml">
+      <configuration name="DateTransform.testDateTransf" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test001_test - 2020.10.28 at 22h 49m 33s.xml">
-      <configuration name="Test001.test" configurationId="JUnit" />
+    <history-entry file="DateTransform_testDateTransf - 2020.12.22 at 09h 14m 33s.xml">
+      <configuration name="DateTransform.testDateTransf" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="471555000" />
+    <option name="totallyTimeSpent" value="597571000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -990,6 +847,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />
@@ -997,20 +855,20 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Web" order="5" sideWeight="0.50185186" side_tool="true" weight="0.261924" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49814814" visible="true" weight="0.25464836" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49814814" visible="true" weight="0.25626516" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962963" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.94434136" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4907033" weight="0.9053803" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6827458" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4898949" weight="0.92022264" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32962963" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3283859" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5092967" side_tool="true" weight="0.7717996" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.53246754" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5101051" side_tool="true" weight="0.9053803" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.53246754" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3283859" />
       <window_info anchor="bottom" id="Spring" order="13" weight="0.3283859" />
       <window_info anchor="bottom" id="Application Servers" order="14" weight="0.32962963" />
       <window_info anchor="bottom" id="Problems" order="15" />
@@ -1027,7 +885,7 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Coverage" order="9" sideWeight="0.50185186" side_tool="true" weight="0.22150365" />
       <window_info anchor="right" id="Bean Validation" order="10" />
-      <window_info anchor="right" id="Structure" order="11" sideWeight="0.50185186" side_tool="true" weight="0.19159256" />
+      <window_info anchor="right" id="Structure" order="11" sideWeight="0.50185186" side_tool="true" weight="0.33306387" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1153,137 +1011,116 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test-proxystatic/src/test/java/xuecheng/jdkdemo/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-proxystatic/src/test/java/xuecheng/jdkdemo/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-proxystatic/src/test/java/xuecheng/jdkdemo/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#92#93#0" expanded="true" />
-            <element signature="e#139#140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-proxystatic/src/test/java/xuecheng/jdkdemo/ProxyObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#395#733#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.0.1.RELEASE/spring-boot-starter-parent-2.0.1.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.0.1.RELEASE/spring-boot-dependencies-2.0.1.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-io/src/test/java/com/xuecheng/object_io/TestHash.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-thread_demo/src/main/java/cn/itcast/visible/VisibleDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-thread_demo/src/main/java/cn/itcast/visible/Test001.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-thread_demo/src/main/java/cn/itcast/sync/SyncDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-thread_demo/src/main/java/cn/itcast/security/DataSecurity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-thread_demo/src/main/java/cn/itcast/lock/LockBlock.java">
+    <entry file="file://$PROJECT_DIR$/test-mybatis-dynamic/src/main/java/xuecheng/dao/TestTimeMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-thread_demo/src/main/java/cn/itcast/lock/Lockemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-thread_demo/src/main/java/cn/itcast/sync/SynchronizedStaticMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-io/src/test/java/com/xuecheng/object_io/TestIo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-thread_demo/src/main/java/cn/itcast/sync/SynchronizedBlock.java">
+    <entry file="file://$PROJECT_DIR$/test-mybatis-dynamic/src/main/java/xuecheng/dao/CourseViewMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="240">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-mybatis-dynamic/src/main/resources/xuecheng/dao/CourseViewMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-mybatis-dynamic/src/main/resources/xuecheng/dao/cityMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-mybatis-dynamic/src/main/java/xuecheng/domain/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-mybatis-dynamic/src/main/java/xuecheng/domain/TestTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="11" selection-start-line="11" selection-end-line="12" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-mybatis-dynamic/src/main/java/xuecheng/domain/ACVSFund.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-mybatis-dynamic/src/main/java/xuecheng/domain/Test.java" />
+    <entry file="file://$PROJECT_DIR$/test-mybatis-dynamic/src/main/java/xuecheng/domain/TestSon.java" />
+    <entry file="file://$PROJECT_DIR$/test-mybatis-dynamic/src/main/java/xuecheng/domain/TestPrivate.java" />
+    <entry file="file://$PROJECT_DIR$/test-mybatis-dynamic/src/main/java/xuecheng/domain/TmpCourseView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.0.3.RELEASE/spring-amqp-2.0.3.RELEASE-sources.jar!/org/springframework/amqp/core/ExchangeBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="89" column="49" selection-start-line="89" selection-start-column="34" selection-end-line="89" selection-end-column="49" />
+          <folding>
+            <element signature="e#1768#1769#0" expanded="true" />
+            <element signature="e#1828#1829#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.1.2/amqp-client-5.1.2-sources.jar!/com/rabbitmq/client/Channel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="668" column="17" selection-start-line="668" selection-start-column="17" selection-end-line="668" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-rabbitmq-producer/src/main/java/com/xuecheng/test/rabbitmq/config/RabbitmqConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1294,234 +1131,281 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-rabbitmq-producer/src/test/java/com/xuecheng/test/Producer04_publishSubscribe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-rabbitmq-producer/src/test/java/com/xuecheng/test/Producer05_routing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="1128">
+          <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test-rabbitmq-producer/src/test/java/com/xuecheng/test/Producer06_topics_springboot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="120">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/cms/CmsConfigControllerApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/config/Test.java" />
+    <entry file="file://$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/config/TestSon.java" />
+    <entry file="file://$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/config/TestFather.java" />
+    <entry file="file://$PROJECT_DIR$/test-jvm/src/main/java/com/xuecheng/test/ProducerTest.java" />
+    <entry file="file://$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/cms/CmsPageControllerApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-mybatis-dynamic/src/test/java/xuecheng/Test001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/src/test/java/com/xuecheng/manage_cms/dao/FreemarkerTest.java">
+    <entry file="file://$PROJECT_DIR$/test-mybatis-dynamic/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="192">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/dao/CourseBaseRepository.java">
+    <entry file="file://$PROJECT_DIR$/test-hadoop-lock/src/test/java/com/xuecheng/LockTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="321">
+          <caret line="48" column="15" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/dao/CourseMapper.java">
+    <entry file="file://$PROJECT_DIR$/test-proxystatic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-mybatis-cache/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-hadoop-lock/src/main/java/com/xuecheng/service/RedisService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#1323#1324#0" expanded="true" />
+            <element signature="e#1364#1365#0" expanded="true" />
+            <element signature="e#2000#2001#0" expanded="true" />
+            <element signature="e#2057#2058#0" expanded="true" />
+            <element signature="e#2192#2193#0" expanded="true" />
+            <element signature="e#2241#2242#0" expanded="true" />
+            <element signature="e#2401#2402#0" expanded="true" />
+            <element signature="e#2462#2463#0" expanded="true" />
+            <element signature="e#2564#2565#0" expanded="true" />
+            <element signature="e#2606#2607#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-hadoop-lock/src/main/java/com/xuecheng/util/RedisKeyUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/course/CourseBase.java">
+    <entry file="file://$PROJECT_DIR$/test-hadoop-lock/src/main/java/com/xuecheng/domain/UserVo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="768">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/course/CourseIndex.java">
+    <entry file="file://$PROJECT_DIR$/test-hadoop-lock/src/test/java/com/xuecheng/test/RedisConfigTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="313">
+          <caret line="68" column="39" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/course/CourseMarket.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.0.6.RELEASE/spring-data-redis-2.0.6.RELEASE-sources.jar!/org/springframework/data/redis/core/ValueOperations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="768">
+          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/course/CourseOff.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.0.6.RELEASE/spring-data-redis-2.0.6.RELEASE-sources.jar!/org/springframework/data/redis/core/DefaultValueOperations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="5400">
+          <caret line="253" column="19" selection-start-line="253" selection-start-column="19" selection-end-line="253" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/course/CoursePic.java">
+    <entry file="file://$PROJECT_DIR$/test-hadoop-lock/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="576">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/course/CoursePub.java">
+    <entry file="file://$PROJECT_DIR$/test-hadoop-lock/src/main/java/com/xuecheng/config/RedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="552">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/course/Teachplan.java">
+    <entry file="file://$PROJECT_DIR$/test-hadoop-lock/src/main/java/com/xuecheng/Lock1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="552">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/course/TeachplanMedia.java">
+    <entry file="file://$PROJECT_DIR$/test-hadoop-lock/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="600">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/develop/jdk/src.zip!/java/lang/Integer.java">
+    <entry file="file://$PROJECT_DIR$/test-proxystatic/src/main/java/com/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-rabbitmq-producer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-framework-parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-transactional/src/main/resources/logback-spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-course/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2112">
-          <caret line="88" selection-start-line="88" selection-end-line="92" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-mysql/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1272">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-cms-client/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-course/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-course/src/main/resources/com/xuecheng/manage_course/dao/TeachplanMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-course/src/test/java/com/xuecheng/manage_course/dao/TestDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-course/src/main/resources/com/xuecheng/manage_course/dao/CourseMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state relative-caret-position="96">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-transactional/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-transactional/src/main/java/com/xuecheng/domain/Tab1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-transactional/src/main/java/com/xuecheng/TestSql.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-transactional/src/test/java/com/xuecheng/dao/Test001.java">
+    <entry file="file://$PROJECT_DIR$/test-hadoop-lock/src/main/java/com/xuecheng/ManageCourseApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
-          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-transactional/src/main/java/com/xuecheng/dao/Tab1Test.java">
+    <entry file="file://$PROJECT_DIR$/test-hadoop-lock/src/test/java/com/xuecheng/RedisLock1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        <state relative-caret-position="48">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-javaUtils/src/main/java/com/yixue/Test01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-javaUtils/test-Date_ transform/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-javaUtils/test-date-transform/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-framework-parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" selection-start-line="5" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-Datetransform/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-Datetransform/src/main/java/com/yixue/ManageCmsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#1040#1041#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-transactional/src/main/resources/com/xuecheng/dao/Tab1Test.xml">
+    <entry file="file://$PROJECT_DIR$/test-Datetransform/src/test/java/yi/xue/DateTransform.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        <state relative-caret-position="48">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-transactional/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/src/test/java/com/xuecheng/manage_cms/dao/CmsPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        <state relative-caret-position="123">
+          <caret line="20" selection-start-line="20" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-Datetransform/src/test/java/com/yixue/DateTransform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1577,7 +1461,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|test-mysql</last-edited>
+          <last-edited>test-jvm</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="xuecheng.dao.Tab1Test">
+
+    <resultMap id="selectBySandP" type="xuecheng.domain.Student">
+        <id column="student_id" property="studentId" />
+        <result column="name" property="name"/>
+        <result column="phone" property="phone"/>
+        <collection property="people01" ofType="xuecheng.domain.People01">
+        <id column="id" property="id"/>
+        <result column="name" property="name" />
+        <result column="age" property="age"/>
+        </collection>
+
+        <!--  property 是属性名称，ofType是 集合中的类型-->
+        <!--<collection property="people01" ofType="xuecheng.domain.People01">-->
+            <!--<id column="id" property="id"/>-->
+            <!--<result column="name" property="name"/>-->
+            <!--<result column="password" property="password"/>-->
+            <!--<result column="age" property="age"/>-->
+        <!--</collection>-->
+
+
+
+        <!-- 单词association是“匹配”的意思， 和下面的方式类似-->
+        <!-- property是所在类的属性名，javaType是该属性的类型-->
+        <!--<association property="student" javaType="xuecheng.domain.Student">-->
+        <!--<id column="student_id" property="studentId"/>-->
+        <!--<result column="name" property="name"/>-->
+        <!--<result column="email" property="email"/>-->
+        <!--<result column="sex" property="sex"/>-->
+        <!--</association>-->
+
+        <!--通过java类属性名.属性（该类的属性）-->
+        <!--<result column="student_id" property="student.studentId"/>-->
+        <!--<result column="name" property="student.name"/>-->
+        <!--<result column="email" property="student.email"/>-->
+        <!--<result column="sex" property="student.sex"/>-->
+    </resultMap>
+
+
+    <select id="selectByS" resultMap="selectBySandP">
+
+
+        SELECT
+            peo.`id`,
+            peo.`name`,
+            peo.`age`,
+            s.`student_id`,
+            s.`name`,
+            s.`phone`
+        FROM
+            peo_stu ps
+        right JOIN
+            student s
+        ON
+            s.`student_id`=ps.`stu_id`
+        right JOIN
+            people01 peo
+        ON
+            peo.`id`=ps.`peo_id`
+
+
+
+
+
+
+
+
+
+
+
+--     SELECT
+--         peo.`id`,
+--         peo.`name`,
+--         peo.`age`,
+--         s.`student_id`,
+--         s.`name`,
+--         s.`phone`
+--     FROM
+--         people01 peo ,
+--         peo_stu ps,
+--         student s
+--     WHERE
+--         peo.`id`=ps.`peo_id`
+--     AND
+--       s.`student_id`=ps.`stu_id`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--     SELECT
+--         peo.id,
+--         peo.name ,
+--         peo.`password`,
+--         peo.`age`,
+--         stu.`student_id`,
+--         stu.`name`,
+--         stu.`email`,
+--         stu.`sex`
+--     FROM
+--         people01 peo , student stu
+--     WHERE
+--         peo.s_id = stu.`student_id`
+--     and
+--         stu.student_id = 1
+    </select>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <select id="selectByStudentSelective" resultType="map" parameterType="map">
+
+    select  * from student
+    <where>
+        <if test="name != null">
+            and name like concat(#{name},'%')
+        </if>
+        <if test="sex != null">
+            and sex = #{sex}
+        </if>
+        <if test="studentId != null">
+            and student_id = #{studentId}
+        </if>
+
+    </where>
+
+    </select>
+
+
+
+    <select id="selectByIdOrName" resultType="xuecheng.domain.Student" parameterType="xuecheng.domain.Student">
+        select
+        *
+        from student
+        where 1=1
+        <choose>
+            <when test="studentId != null">
+                and student_id=#{studentId}
+            </when>
+            <when test="name != null and name != ''">
+                and name=#{name}
+            </when>
+            <otherwise>
+                and 1=2
+            </otherwise>
+        </choose>
+    </select>
+
+
+    <update id="updateByid" parameterType="xuecheng.domain.Student">
+        update student
+        <set>
+
+            <if test="name != null">
+              name = #{name},
+            </if>
+            <if test="phone != null">
+                phone = #{phone},
+            </if>
+            <if test="email != null">
+                email = #{email},
+            </if>
+            <if test="sex != null">
+                sex = #{sex},
+            </if>
+            <if test="locked != null">
+                locked = #{locked}
+            </if>
+            where student_id = #{studentId}
+        </set>
+
+
+
+
+
+    </update>
+
+
+
+
+</mapper>

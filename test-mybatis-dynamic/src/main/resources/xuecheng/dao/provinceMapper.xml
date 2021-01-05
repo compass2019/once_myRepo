@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="xuecheng.dao.ProvinceMapper">
+    <resultMap id="provinceResultMapper" type="xuecheng.domain.Province">
+        <id column="pid" property="id"/>
+        <result column="pname" property="name"/>
+        <!--association 中的属性property 是一对一中的属性名称，
+                        column是指传入参数的id
+                        select 是指执行的方法-->
+        <!--<association property="alias" column="id" select="xuecheng.dao.AliasMapper.findAliasByPid"/>-->
+
+        <!--collection的测试-->
+        <!--<collection property="cities" column="id" select="xuecheng.dao.CityMapper.findById"/>-->
+
+
+        <!--以下有点类似于switch语句-->
+        <!--<discriminator javaType="int" column="area">-->
+            <!--<case value="1" resultMap="noodleResultMap"></case>-->
+            <!--<case value="2" resultMap="riceResultMap"></case>-->
+        <!--</discriminator>-->
+
+        <!--以下collection，不能查出准确数据。原因不知因为是啥？-->
+        <collection property="cities" ofType="xuecheng.domain.City">
+            <id column="id" property="id"/>
+            <result column="name" property="name"/>
+            <result column="pid" property="pid"/>
+        </collection>
+    </resultMap>
+
+
+
+    <resultMap id="noodleResultMap" type="xuecheng.domain.Province" extends="provinceResultMapper">
+        <collection property="foods" column="area" select="xuecheng.dao.NoodleMapper.findNoodleByArea"/>
+    </resultMap>
+    <resultMap id="riceResultMap" type="xuecheng.domain.Province" extends="provinceResultMapper">
+        <collection property="foods" column="area" select="xuecheng.dao.RiceMapper.findRiceByArea"/>
+    </resultMap>
+
+
+    <select id="getProvince" resultMap="provinceResultMapper">
+--      SELECT * FROM province
+    SELECT  pro.id pid,pro.name pname,c.id,c.name,c.pid FROM city c , province pro WHERE pro.`id`=c.`pid`
+    </select>
+
+</mapper>

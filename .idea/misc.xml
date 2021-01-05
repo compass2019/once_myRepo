@@ -36,6 +36,11 @@
         <option value="$PROJECT_DIR$/test-mysql/pom.xml" />
         <option value="$PROJECT_DIR$/test-cookie/pom.xml" />
         <option value="$PROJECT_DIR$/test-transactional/pom.xml" />
+        <option value="$PROJECT_DIR$/poi_parser_demo_01/pom.xml" />
+        <option value="$PROJECT_DIR$/test-mybatis-dynamic/pom.xml" />
+        <option value="$PROJECT_DIR$/test-javaUtils/pom.xml" />
+        <option value="$PROJECT_DIR$/test-lock/pom.xml" />
+        <option value="$PROJECT_DIR$/test-datetransform/pom.xml" />
       </list>
     </option>
   </component>
